@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    font-family: 'Young Serif', serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(images/wp2661692.jpg);
+    
+    background-repeat: repeat-y;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: white;
+}
+
+.name {
+    width: 280px;
+    font-size: 45px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.icon {
+    width: 250px;
+    animation-name: abdo1;
+    animation-duration: 1s;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+
+}
+
+.nav a:hover {
+    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+
+
+
+}
+
+li {
+    display: flex;
+    padding: 1px;
+    justify-content: center;
+
+
+}
+.login{
+    margin: 40px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #e0d8d8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.qqqq {
+    color: #e9e9e9;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    width: 220px;
+    margin-bottom:30px ;
+}
+
+#submit {
+    background-color: #948787;
+    color: #030303;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 50px;
+    
+    
+    
+
+
+}
+
+#submit:hover {
+    background-color: #333;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-6px);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 10px;
+
+}
+
+.social img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+.social a {
+    text-decoration: none;
+    color: rgb(173, 68, 68);
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+}
+
+.social a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(172, 40, 229);
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.face {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 70px;
+    align-items: center;
+}
+
+.contat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+    width: 45vh;
+    border-radius: 35px;
+    margin: 20px;
+
+}
+
+.contat a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.youtube {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+iframe {
+    border: 10px solid black;
+    border-radius: 20px;
+
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9a4ff5;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.game1{
+    animation-name: abdo2;
+    animation-duration: 1.5s;
+  }
+
+.games img{
+    border: 10px solid rgb(75, 70, 70);
+    width: 500px;
+    border-radius: 20px;
+    margin: 30px;
+    transition: all 0.3s ease;
+    
+}
+.games img:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(20%);
+    -webkit-transform: scale(110%);
+    
+}
+
+
+.descrip{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.has a{
+    border-radius: 50px;
+    background-color: rgb(66, 158, 229);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+.main img{
+    width: 350px;
+    margin-right: 30px;
+    animation-name: abdo;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+}
+
+.main1{
+    width: 500px;
+    
+}
+#b{
+    color: rgb(130, 25, 25);
+}
+#a{
+    color: rgb(23, 74, 162);
+}
+#a , #b{
+    font-size: 40px;
+}
+.facebook ,.insta ,.whats{
+    animation-name: abdo2;
+    animation-duration: 1.4s;
+    
+  }
+  .main1{
+    font-size: 23px;
+  }
+  .vid1 iframe{
+    animation-name: abdo2;
+    animation-duration: 1s;
+  }
+
+
+@media (max-width:977px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .main img{
+        width: 200px;
+    }
+    .main1{
+        width: 400px;
+        
+    }
+    .main1{
+        font-size: 18px;
+    }
+    
+
+
+}
+@media (max-width:624px){
+    .header ul li a{
+        margin: 1px;
+        padding: 7px;
+        font-size: 20px;
+    }
+    .vid1 iframe{
+        width: 400px;
+        border: #000000 solid 5px;
+    }
+    .main img{
+        display: none;
+    }
+    .game1{
+        scale: 0.9;
+    }
+
+    
+}
+
+@keyframes abdo {
+    0% {
+        scale: 0.8;
+    }
+
+    50%{
+        scale: 1.1;
+    }
+    
+    100% {
+      scale: 0.8;
+    }
+  }
+
+
+@keyframes abdo1 {
+    from {
+      
+      transform: translateX(-400px);
+      
+    }
+  
+    to {
+      
+    }
+  }
+@keyframes abdo2 {
+    from {
+      scale: 0;
+      transform: translatey(500px);
+      opacity: 50%;
+    }
+  
+    to {
+        
+    }
+  }
+  
+  
+
+
+
